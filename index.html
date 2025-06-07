@@ -1,0 +1,339 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Technology Club - IIST</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="attached_assets/with background_1749283669765.png" alt="QTC Logo" class="logo-img">
+                <span>QTC</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#opportunities" class="nav-link">Opportunities</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Section -->
+    <section id="home" class="hero">
+        <div class="particles-container" id="particles"></div>
+        <div class="hero-content">
+            <div class="quantum-logo">
+                <img src="attached_assets/with background_1749283669765.png" alt="Quantum Technology Club" class="main-logo">
+            </div>
+            <h1 class="hero-title">Quantum Technology Club</h1>
+            <h2 class="hero-subtitle">Indian Institute of Space Science and Technology</h2>
+            <p class="hero-description">Exploring the frontiers of quantum computing, communication, and space technology</p>
+            <button class="cta-button glow-btn" onclick="scrollToSection('about')">
+                <span>Explore Quantum Realm</span>
+                <i class="fas fa-rocket"></i>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About QTC</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Our Mission</h3>
+                    <p>The Quantum Technology Club at IIST is dedicated to advancing research and awareness in quantum computing, quantum communication, and space-related technologies. We bridge the gap between theoretical quantum mechanics and practical applications in space science.</p>
+                    
+                    <h3>What We Do</h3>
+                    <ul>
+                        <li>Research in quantum algorithms and protocols</li>
+                        <li>Quantum communication systems for satellites</li>
+                        <li>Educational workshops and seminars</li>
+                        <li>Collaboration with industry and academia</li>
+                        <li>Space-quantum technology integration</li>
+                    </ul>
+                </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="quantum-cube">
+                        <div class="cube-face front"></div>
+                        <div class="cube-face back"></div>
+                        <div class="cube-face right"></div>
+                        <div class="cube-face left"></div>
+                        <div class="cube-face top"></div>
+                        <div class="cube-face bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Opportunities Section -->
+    <section id="opportunities" class="opportunities">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Opportunities</h2>
+            <div class="opportunities-grid">
+                <div class="opportunity-card" data-aos="flip-left">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Internships</h3>
+                        <p>Work with leading quantum technology companies and research institutions worldwide.</p>
+                        <ul>
+                            <li>IBM Quantum Network</li>
+                            <li>Google Quantum Research</li>
+                            <li>ISRO Quantum Division</li>
+                            <li>Microsoft Quantum</li>
+                        </ul>
+                        <button class="card-btn glow-btn">Apply Now</button>
+                    </div>
+                </div>
+
+                <div class="opportunity-card" data-aos="flip-up">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Research Collaborations</h3>
+                        <p>Collaborate on cutting-edge quantum research projects with international institutions.</p>
+                        <ul>
+                            <li>Quantum Satellite Networks</li>
+                            <li>Space-based Quantum Key Distribution</li>
+                            <li>Quantum Sensors for Space</li>
+                            <li>Interplanetary Quantum Communication</li>
+                        </ul>
+                        <button class="card-btn glow-btn">Join Research</button>
+                    </div>
+                </div>
+
+                <div class="opportunity-card" data-aos="flip-right">
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Workshops</h3>
+                        <p>Enhance your skills through hands-on workshops and training programs.</p>
+                        <ul>
+                            <li>Quantum Algorithms</li>
+                            <li>Qiskit Programming</li>
+                            <li>Quantum Cryptography</li>
+                            <li>Quantum Machine Learning</li>
+                        </ul>
+                        <button class="card-btn glow-btn">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Current Projects</h2>
+            <div class="projects-carousel">
+                <div class="carousel-container">
+                    <div class="project-slide active">
+                        <div class="project-content">
+                            <h3>Quantum Satellite Communication</h3>
+                            <p>Developing quantum key distribution protocols for secure satellite communications using entangled photons.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Quantum Entanglement</span>
+                                <span class="tech-tag">Satellite Technology</span>
+                                <span class="tech-tag">Cryptography</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <div class="project-content">
+                            <h3>Space-based Quantum Sensors</h3>
+                            <p>Creating ultra-sensitive quantum sensors for detecting gravitational waves and dark matter in space.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Quantum Sensors</span>
+                                <span class="tech-tag">Space Physics</span>
+                                <span class="tech-tag">Detection Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <div class="project-content">
+                            <h3>Quantum Computing for Space Navigation</h3>
+                            <p>Implementing quantum algorithms for optimized spacecraft trajectory calculations and mission planning.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Quantum Algorithms</span>
+                                <span class="tech-tag">Navigation</span>
+                                <span class="tech-tag">Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-slide">
+                        <div class="project-content">
+                            <h3>Interplanetary Quantum Network</h3>
+                            <p>Designing a quantum internet infrastructure for secure communication between Earth and Mars colonies.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Quantum Internet</span>
+                                <span class="tech-tag">Interplanetary</span>
+                                <span class="tech-tag">Network Protocols</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" onclick="changeSlide(-1)">‹</button>
+                    <button class="carousel-btn next" onclick="changeSlide(1)">›</button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" onclick="currentSlide(1)"></span>
+                    <span class="indicator" onclick="currentSlide(2)"></span>
+                    <span class="indicator" onclick="currentSlide(3)"></span>
+                    <span class="indicator" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Events Timeline</h2>
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-date">Dec 2024</div>
+                        <div class="timeline-content">
+                            <h3>Quantum Winter School</h3>
+                            <p>Intensive 5-day workshop on quantum algorithms and Qiskit programming.</p>
+                            <span class="event-status upcoming">Upcoming</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-date">Nov 2024</div>
+                        <div class="timeline-content">
+                            <h3>Space-Quantum Symposium</h3>
+                            <p>International conference on quantum technologies for space applications.</p>
+                            <span class="event-status past">Completed</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-date">Oct 2024</div>
+                        <div class="timeline-content">
+                            <h3>Quantum Hackathon</h3>
+                            <p>24-hour hackathon focused on quantum computing solutions for space missions.</p>
+                            <span class="event-status past">Completed</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-date">Jan 2025</div>
+                        <div class="timeline-content">
+                            <h3>Industry Connect</h3>
+                            <p>Networking event with quantum technology companies and research labs.</p>
+                            <span class="event-status upcoming">Upcoming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to explore the quantum realm? Join us in pushing the boundaries of technology and space science.</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>qtc@iist.ac.in</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 471 256 8000</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>IIST Campus, Valiamala, Thiruvananthapuram, Kerala 695547</span>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn glow-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="attached_assets/with background_1749283669765.png" alt="QTC Logo">
+                    <span>Quantum Technology Club</span>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2024 Quantum Technology Club, IIST. All rights reserved.</p>
+                    <p>Exploring the quantum frontier of space technology</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
